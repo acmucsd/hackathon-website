@@ -43,6 +43,10 @@
     font-size: 0.75rem;
   }
 
+  .title {
+    font-size: 3em;
+  }
+
   .image {
     height: 300px;
   }
@@ -57,7 +61,7 @@
 @media only screen and (max-width: 768px) {
   .container {
     flex-direction: column;
-    gap: 50px;
+    gap: 5%;
   }
 
   .image {

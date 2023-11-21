@@ -52,7 +52,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <p>Made with ♡ by ACM at UC San Diego</p>
+      <p className={styles.message}>Made with ♡ by ACM at UC San Diego</p>
 
       <Socials />
     </div>
