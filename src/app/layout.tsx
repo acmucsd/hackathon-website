@@ -6,7 +6,7 @@ const dmSans = DM_Sans({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'DiamondHacks',
-  description: 'UC San Diego\'s Hackathon',
+  description: "UC San Diego's Hackathon",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
