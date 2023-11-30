@@ -10,9 +10,6 @@ export default function Home() {
       <div className={styles.separator}></div>
 
       <Footer />
-
-      {/*<img src="./image.png" width={250}/>*/}
-      {/*<img src="./acm-logo.png" width={250}/>*/}
     </main>
   );
 }

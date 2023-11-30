@@ -9,7 +9,7 @@
 }
 
 .buttonsContainer {
-  width: 100%;
+  width: 65%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,6 +68,10 @@
 
   .container {
     font-weight: 600;
+  }
+
+  .buttonsContainer {
+    width: 100%;
   }
 
   .logoContainer {

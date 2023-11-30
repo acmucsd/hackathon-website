@@ -12,7 +12,7 @@ export default function Footer() {
         </div>
 
         <a className={styles.logo} href="https://acmucsd.com/" target="_blank">
-          <img src="./acm-logo.png" alt="ACM Logo"/>
+          <img src="./acm-logo.png" alt="ACM Logo" />
         </a>
 
         <div className={styles.linksContainer}>
@@ -25,21 +25,15 @@ export default function Footer() {
       <div className={`${styles.buttonsContainer} ${styles.mobile}`}>
         <div className={styles.logoContainer}>
           <a className={styles.logo} href="https://acmucsd.com/" target="_blank">
-            <img src="./acm-logo.png" alt="ACM Logo" className={styles.logoImage}/>
+            <img src="./acm-logo.png" alt="ACM Logo" className={styles.logoImage} />
           </a>
         </div>
 
         <div className={styles.linksContainer}>
-          <a className={styles.linkText} href="#" target="_blank">
+          <a className={styles.linkText} href="https://acmucsd.com/about" target="_blank">
             About Us
           </a>
-          <a className={styles.linkText} href="#" target="_blank">
-            Code of Conduct
-          </a>
-          <a className={styles.linkText} href="#" target="_blank">
-            FAQs
-          </a>
-          <a className={styles.linkText} href="#" target="_blank">
+          <a className={styles.linkText} href="https://acmucsd.com/sponsor" target="_blank">
             Sponsor Us
           </a>
         </div>
@@ -47,7 +41,7 @@ export default function Footer() {
 
       <p className={styles.message}>Made with ♡ by ACM at UC San Diego</p>
 
-      <Socials/>
+      <Socials />
     </div>
   );
 }
