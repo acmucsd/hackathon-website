@@ -4,7 +4,7 @@
 }
 
 .separator {
-  height: 0.25em;
+  height: 0.4em;
   width: 100%;
   background: linear-gradient(90deg, #e981a0, #ff6f6f, #f9a857, #51c0c0, #62b0ff, #816dff);
 }

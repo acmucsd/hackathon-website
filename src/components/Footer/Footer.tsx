@@ -1,5 +1,6 @@
 import styles from './footer.module.css';
 import Socials from '@/components/Socials/Socials';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -12,7 +13,7 @@ export default function Footer() {
         </div>
 
         <a className={styles.logo} href="https://acmucsd.com/" target="_blank">
-          <img src="./acm-logo.png" alt="ACM Logo" />
+          <Image src="/acm-logo.png" alt="ACM Logo" width={144} height={144} />
         </a>
 
         <div className={styles.linksContainer}>
@@ -25,7 +26,13 @@ export default function Footer() {
       <div className={`${styles.buttonsContainer} ${styles.mobile}`}>
         <div className={styles.logoContainer}>
           <a className={styles.logo} href="https://acmucsd.com/" target="_blank">
-            <img src="./acm-logo.png" alt="ACM Logo" className={styles.logoImage} />
+            <Image
+              src="/acm-logo.png"
+              alt="ACM Logo"
+              className={styles.logoImage}
+              width={125}
+              height={125}
+            />
           </a>
         </div>
 

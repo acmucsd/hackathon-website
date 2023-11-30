@@ -6,9 +6,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Main />
-
-      <div className={styles.separator}></div>
-
+      <div className={styles.separator} />
       <Footer />
     </main>
   );

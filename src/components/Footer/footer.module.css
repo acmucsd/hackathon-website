@@ -1,10 +1,10 @@
 .container {
   width: 100%;
-
+  padding-top: 5vh;
+  padding-bottom: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-
   font-weight: 500;
 }
 
@@ -30,11 +30,9 @@
 .linkText {
   text-decoration: none;
   color: inherit;
-
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   min-width: 200px;
   display: inline-block;
-
   text-align: center;
 }
 
@@ -55,6 +53,7 @@
 
 .message {
   margin-top: 0;
+  padding: 1rem;
 }
 
 @media only screen and (max-width: 768px) {
