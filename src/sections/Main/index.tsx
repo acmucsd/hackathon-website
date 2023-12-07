@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './main.module.css';
 export default function Main() {
   return (
@@ -6,13 +7,20 @@ export default function Main() {
 
       <div className={styles.infoContainer}>
         <h1 className={styles.title}>DiamondHacks</h1>
-        <h2 className={styles.subtitle}>March 27, 2024 | UC San Diego</h2>
+        <h2 className={styles.subtitle}>March 29, 2024 | UC San Diego</h2>
 
         <p className={styles.description}>
           Join us for a hackathon that&apos;s truly a cut above the rest.
         </p>
 
-        <div className={styles.comingSoon}>Sign-ups coming soon!</div>
+        <Link
+          className={styles.comingSoon}
+          href="https://acmurl.com/diamondhacks-preregister"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Get notified when applications are live!
+        </Link>
       </div>
     </div>
   );
