@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './main.module.css';
 export default function Main() {
   return (
@@ -12,7 +13,14 @@ export default function Main() {
           Join us for a hackathon that&apos;s truly a cut above the rest.
         </p>
 
-        <div className={styles.comingSoon}>Sign-ups coming soon!</div>
+        <Link
+          className={styles.comingSoon}
+          href="https://acmurl.com/diamondhacks-preregister"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Get notified when applications are live!
+        </Link>
       </div>
     </div>
   );

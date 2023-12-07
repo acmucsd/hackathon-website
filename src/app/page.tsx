@@ -3,7 +3,7 @@ import Main from '@/sections/Main';
 import Footer from '@/sections/Footer';
 import FAQ from '@/sections/FAQ';
 
-const Home = () => {
+export default function Home() {
   return (
     <main className={styles.main}>
       <Main />
@@ -12,6 +12,4 @@ const Home = () => {
       <Footer />
     </main>
   );
-};
-
-export default Home;
+}

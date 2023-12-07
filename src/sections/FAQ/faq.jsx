@@ -1,40 +1,47 @@
 const data = {
   students: [
     {
-      question: 'How do I attend the career fair?',
+      question: 'How can I register for DiamondHacks? Are there any deadlines?',
       answer: (
         <p>
-          You can register to attend SPACE <a href="https://acmurl.com/space-registration">here</a>.
-          We will be sending out more information as soon as we can confirm your attendance!
+          You can sign up for email updates about DiamondHacks using{' '}
+          <a
+            href="https://acmurl.com/diamondhacks-preregister"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            this pre-registration link
+          </a>
+          !
+          <br />
+          Check back soon for official DiamondHacks registration info and deadlines!
         </p>
       ),
     },
     {
-      question: 'When does the career fair start?',
+      question: "What's a “hackathon”?",
       answer:
-        'SPACE will open its doors to students starting at 10am. Please remember to sign up for the career fair ahead of time here!',
+        'Hackathons are collaborative events where you can build innovative software/hardware projects in a short period of time (apps, websites, etc). Hackathons are a great opportunity to learn something new in the technology space and apply your knowledge to find creative solutions to problems in our world!',
     },
     {
-      question: 'Who can attend?',
-      answer: 'Space is open to all UCSD students.',
-    },
-    {
-      question: 'What is the dress code?',
-      answer: 'There isn’t a strict dress code for the event. Keep it simple!',
-    },
-    {
-      question: 'What kind of companies will be coming?',
+      question: 'Do I need prior experience in coding to participate?',
       answer:
-        'Our lineup of companies will be announced soon on social media and updated here on this page!',
+        'No, hackers of any experience levels are welcome! DiamondHacks will provide a wide range of project tracks, including tracks for first time hackers.',
     },
     {
-      question: 'Should I bring my resume?',
-      answer: (
-        <p>
-          Feel free to bring your resume! We will also be sharing resumes with companies after the
-          event so make sure to upload your resume on the registration form.
-        </p>
-      ),
+      question: 'Will DiamondHacks be online or in-person?',
+      answer:
+        'DiamondHacks is an in-person hackathon taking place at UC San Diego. Check back soon for details on the venue!',
+    },
+    {
+      question: 'Who can attend DiamondHacks? Is there an age limit?',
+      answer:
+        'Undergraduate students enrolled in any college/university are eligible to attend DiamondHacks!',
+    },
+    {
+      question: 'Who can I reach out to for questions or concerns?',
+      answer:
+        'Please reach out to hackathon@acmucsd.org with any questions or concerns about DiamondHacks!',
     },
   ],
 };

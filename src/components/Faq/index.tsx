@@ -7,11 +7,22 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import s from './style.module.css';
+import { ThemeProvider, createTheme } from '@mui/material';
+import { DM_Sans } from 'next/font/google';
+
+const dmSans = DM_Sans({ subsets: ['latin'] });
 
 interface FaqProps {
   data: { question: string; answer: string | any }[];
 }
-const Faq = ({ data }: FaqProps) => {
+
+const theme = createTheme({
+  typography: {
+    fontFamily: dmSans.style.fontFamily,
+  },
+});
+
+export default function FAQ({ data }: FaqProps) {
   const [expandedIndex, setExpandedIndex] = useState<number>(-1);
 
   const handleChange =
@@ -20,7 +31,7 @@ const Faq = ({ data }: FaqProps) => {
     };
 
   return (
-    <>
+    <ThemeProvider theme={theme}>
       {data.map((questionObject, index) => (
         <Accordion
           expanded={expandedIndex === index}
@@ -30,6 +41,9 @@ const Faq = ({ data }: FaqProps) => {
             borderBottom: 3,
             bgcolor: 'transparent',
             boxShadow: 'none',
+            '&.Mui-expanded': {
+              margin: 0,
+            },
           }}
           key={questionObject.question}
         >
@@ -39,14 +53,12 @@ const Faq = ({ data }: FaqProps) => {
             </Typography>
           </AccordionSummary>
           <AccordionDetails className={s.description}>
-            <Typography component="div" sx={{ fontSize: 20, fontWeight: 'bold' }}>
+            <Typography component="div" sx={{ fontSize: 16 }}>
               <div>{questionObject.answer}</div>
             </Typography>
           </AccordionDetails>
         </Accordion>
       ))}
-    </>
+    </ThemeProvider>
   );
-};
-
-export default Faq;
+}
