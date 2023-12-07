@@ -8,6 +8,9 @@
   width: 65%;
   padding-top: 10px;
   padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .faqTitle {
