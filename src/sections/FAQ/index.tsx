@@ -6,7 +6,7 @@ export default function FAQ() {
   return (
     <div className={s.background} id="faq">
       <div className={s.faqContainer}>
-        <h3 className={s.faqTitle}>FAQs</h3>
+        <h1 className={s.faqTitle}>FAQs</h1>
         <div className={s.faqBox}>
           <Faq data={faqData.students} />
         </div>
