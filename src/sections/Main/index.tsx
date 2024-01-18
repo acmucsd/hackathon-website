@@ -19,7 +19,7 @@ export default function Main() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Get notified when applications are live!
+          Register now!
         </Link>
       </div>
     </div>
