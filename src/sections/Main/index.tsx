@@ -7,7 +7,7 @@ export default function Main() {
 
       <div className={styles.infoContainer}>
         <h1 className={styles.title}>DiamondHacks</h1>
-        <h2 className={styles.subtitle}>April, 2024 | UC San Diego</h2>
+        <h2 className={styles.subtitle}>April 2024 | UC San Diego</h2>
 
         <p className={styles.description}>
           Join us for a hackathon that&apos;s truly a cut above the rest.
