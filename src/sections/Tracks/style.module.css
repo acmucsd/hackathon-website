@@ -1,0 +1,13 @@
+.container {
+  margin: 0 auto;
+  width: 80%;
+  height: 100vh;
+}
+
+.header {
+  font-size: 3.5rem;
+}
+
+.description {
+  font-weight: 400;
+}

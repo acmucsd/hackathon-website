@@ -1,11 +1,11 @@
 .background {
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .faqContainer {
   max-width: 1440px;
   margin: 0 auto;
-  width: 65%;
+  width: 80%;
   padding-top: 10px;
   padding-bottom: 50px;
   display: flex;
@@ -14,7 +14,8 @@
 }
 
 .faqTitle {
-  font-size: 65px;
+  font-size: 3.5rem;
+  margin: 1rem 0;
 }
 
 .faqBox {
